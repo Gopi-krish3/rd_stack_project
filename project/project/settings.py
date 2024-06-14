@@ -77,11 +77,9 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.oracle',
-        'NAME': 'XE',
+        'NAME': 'localhost:1521/XE',
         'USER': 'bank',
         'PASSWORD': 'bank',
-        'HOST': 'localhost',
-        'PORT': '1521',
     }
 }
 
