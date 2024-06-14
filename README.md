@@ -1,1 +1,1 @@
-the repo is a test repo for git experiments
+the repo is a django project. The project has been created to initialized for readymade project.
